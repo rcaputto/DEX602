@@ -4,12 +4,14 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-      "prettier": "prettier"
+        "prettier": "prettier",
+        "test": "sfdx-lwc-jest"
     },
     "author": "",
     "license": "ISC",
     "devDependencies": {
-      "prettier": "2.1.2",
-      "prettier-plugin-apex": "1.7.0"
+        "@salesforce/sfdx-lwc-jest": "^5.1.0",
+        "prettier": "2.1.2",
+        "prettier-plugin-apex": "1.7.0"
     }
-  }
+}

@@ -3,7 +3,9 @@ import getStudents from '@salesforce/apex/StudentBrowser.getStudents';
 
 export default class StudentBrowser extends LightningElement {
     
-    @wire (getStudents,{instructorId: "", courseDeliveryId:""}) 
-    students;
+
+    @wire(getStudents, { instructorId: "", courseDeliveryId:
+        ""})
+        students;
 
 }

@@ -34,5 +34,6 @@
     <tabs>standard-report</tabs>
     <tabs>standard-Dashboard</tabs>
     <tabs>TripReport__c</tabs>
+    <tabs>Course_Attendee__c</tabs>
     <uiType>Lightning</uiType>
 </CustomApplication>

@@ -193,4 +193,8 @@ export default class TripReportFormAdvanced extends LightningElement {
 		
 	}
 
+	onCancel() {
+		this.returnToBrowseMode();
+		}
+
 }

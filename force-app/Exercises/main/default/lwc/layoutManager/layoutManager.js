@@ -13,6 +13,7 @@ export default class LayoutManager extends LightningElement {
 	certificationId = 0;
 	modalHeader = '';
 	modalContent = '';
+	loading=true;
 
 	connectedCallback(){
 		Utils.showToast(
@@ -66,4 +67,11 @@ export default class LayoutManager extends LightningElement {
 		const modal = this.template.querySelector('c-modal');
 		modal.hide();
 	}
+
+	handleLoading() {
+		this.loading = true;
+		}
+	handleDoneLoading() {
+		this.loading = false;
+		}
 }
